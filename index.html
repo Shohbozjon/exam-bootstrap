@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>exam-bootstrap</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row gx-2">
+                <div class="col-8">
+                    <div class="shadow bg-body rounded p-5">
+                        <form>
+                            <h1 class="mb-5">
+                                Payment information
+                            </h1>
+                            
+                            <label class="form-label">CARD NUMBER</label>
+                            <input type="password" class="form-control mb-4" placeholder="**** **** **** ****">
+                            
+                            <div class="row">
+                                <div class="col-6">
+                                    <label class="form-label">CARD HOLDER</label>
+                                    <input type="name" class="form-control" placeholder="Michael Jordan">
+                                </div>
+                                
+                                <div class="col-3">
+                                    <label class="form-label">EXP. DATE</label>
+                                    <input type="text" class="form-control" placeholder="03/19">
+                                </div>
+                                
+                                <div class="col-3">
+                                    <label class="form-label">CVC</label>
+                                    <input type="password" class="form-control" placeholder="***">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="col-4">
+                    <div class="shadow bg-body rounded p-4 mb-5">
+                        <form>
+                            <div class="d-flex justify-content-between py-4 border-bottom">
+                                <div class="d-flex items-center align-items-center">
+                                    <button type="button" class="btn btn-primary position-relative align-middle">
+                                        <img class="img-thumbnail align-middle" src="./images/chocolate-bar.jpg" alt="chocolate-bar" width="40" height="50">
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            2
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </button>
+                                    
+                                    <h2 class="fs-6 ms-3">
+                                        Chocolate bar
+                                    </h2>
+                                </div>
+                                
+                                <strong>
+                                    $2.49
+                                </strong>
+                                
+                            </div>
+                            
+                            
+                            
+                            <div class="py-4 border-bottom">
+                                <div class="d-flex justify-content-between ">
+                                    <p class="m-0">Subtotal</p>
+                                    <strong>$4.98</strong>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="m-0">Shipping</p>
+                                    <strong>$3.00</strong>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between py-4">
+                                <p class="m-0">Total</p>
+                                <strong class="fs-4">$7.98</strong>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-8">
+                    <div class="p-4 shadow bg-body rounded">
+                        <h2 class="mb-4">
+                            Billing address
+                        </h2>
+                        
+                        <form>
+                            <div class="form-check py-3 border-bottom">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">
+                                    Same as the shipping address 
+                                </label>
+                            </div>
+                            
+                            <div class="form-check py-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">
+                                    USe a different billing address
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="mt-4 d-flex justify-content-between">
+                        <a href="#" class="text-primary text-decoration-none">Return to shipping method</a>
+
+                        <button type="submit" class="bg-primary text-white p-2 rounded">
+                            Complete order
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
